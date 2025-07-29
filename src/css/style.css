@@ -99,6 +99,24 @@ p {
   color: var(--tertiary-color);
 }
 
+/* Products */
+
+.discount-flag {
+  position: absolute;
+  top: 10px;
+  left: -10px;
+  background-color: red;
+  color: white;
+  padding: 5px 15px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border-radius: 4px;
+  transform: rotate(-15deg);
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  z-index: 100;
+}
+
+
 button {
   padding: 0.5em 2em;
   background-color: var(--secondary-color);
